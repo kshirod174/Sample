@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Doodles" parallel="" thread-count="5" verbose="1"> 
+
+<listeners>
+ 
+ 		<listener class-name="frameworkFactory.TestListener"></listener>
+ 
+ </listeners>
+
+	
+	<test name="Doodles Test">
+		<classes>
+			<class name="testCases.DoodlesTest" />
+		</classes>
+	</test>
+	
+</suite>

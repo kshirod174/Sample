@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Main Suite" parallel="" thread-count="5" verbose="1">
+	<test name="flipkart TC">
+		<classes>
+			<!-- <class name="testcases.FlipKartApp_Seetest" /> -->
+			<class name="cucumberRunner.Runner" />
+		</classes>
+	</test>
+</suite>

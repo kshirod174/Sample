@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Google Search" parallel="" thread-count="5" verbose="1"> 
+
+<listeners>
+ 
+ 		<listener class-name="frameworkFactory.TestListener"></listener>
+ 
+ </listeners>
+
+	
+	<test name="Google Search Test">
+		<classes>
+			<class name="testCases.GoogleSearchTest" />
+		</classes>
+	</test>
+	
+</suite>

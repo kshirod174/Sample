@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Google App" parallel="" thread-count="2" verbose="1"> 
+
+<listeners>
+ 
+ 		<listener class-name="frameworkFactory.TestListener"></listener>
+ 
+ </listeners>
+
+	<test name="Doodles Test">
+		<classes>
+			<class name="testCases.DoodlesTest" />
+		</classes>
+	</test>
+	
+	<test name="Google Search Test">
+		<classes>
+			<class name="testCases.GoogleSearchTest" />
+		</classes>
+	</test>
+	
+	
+</suite>
