@@ -85,7 +85,7 @@ public class BaseTestSuite extends DriverManager {
 	public static Scenario scenario;
 	public static String resultLocation;
 	
-	//public RemoteWebDriverr driver;
+	//public RemoteWebDriverr driver; manasmita
 	public static String url,browser,browserNode;
 	public static String timeStamp ;
 	public static String currentDate;
